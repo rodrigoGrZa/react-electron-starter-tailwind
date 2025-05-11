@@ -1,4 +1,3 @@
-// App.tsx
 import { useEffect, useState } from "react";
 
 export default function App() {
@@ -15,13 +14,13 @@ export default function App() {
     }
   }, []);
 
-
   return (
     <div className="min-h-screen bg-white text-black font-sans flex flex-col items-center justify-center px-6">
       <div className="text-center space-y-6 max-w-xl">
         <h1 className="text-5xl font-bold tracking-tight uppercase">Electron Starter</h1>
         <p className="text-lg text-gray-600 leading-relaxed">
-          A minimal React + Electron + Tailwind starter with a modern Swiss-inspired design. Efficient, clean and to the point.
+          A minimal React + Electron + Tailwind starter with a modern Swiss-inspired design.
+          Efficient, clean and to the point.
         </p>
 
         <div className="border-t border-gray-300 pt-6">

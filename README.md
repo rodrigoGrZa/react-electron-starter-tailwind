@@ -8,11 +8,11 @@ This starter provides everything you need to quickly build a sleek and reactive 
 
 ## ✨ Features
 
-- ⚛️ **React 18** + **Vite** for lightning-fast HMR  
-- 🧠 **TypeScript** for type safety across the stack  
-- 🌈 **TailwindCSS** for styling (with minimalist Swiss layout principles)  
-- 💡 **Context Bridge** setup via `preload.ts` for safe Electron-Renderer communication  
-- ⚙️ Fully separated `main`, `preload` and `renderer` processes  
+- ⚛️ **React 18** + **Vite** for lightning-fast HMR
+- 🧠 **TypeScript** for type safety across the stack
+- 🌈 **TailwindCSS** for styling (with minimalist Swiss layout principles)
+- 💡 **Context Bridge** setup via `preload.ts` for safe Electron-Renderer communication
+- ⚙️ Fully separated `main`, `preload` and `renderer` processes
 - 🛠️ Ready for multiplatform builds (macOS, Windows, Linux)
 
 ---
@@ -54,6 +54,7 @@ npm run dev
 ```
 
 This launches:
+
 - The Electron app
 - A Vite dev server for the React renderer
 - Hot reload for both backend and frontend
@@ -112,6 +113,7 @@ declare global {
   }
 }
 ```
+
 ## 📜 License
 
 MIT — free to use for personal or commercial projects. Contributions welcome!
